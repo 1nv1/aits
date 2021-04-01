@@ -40,8 +40,8 @@ class aits {
     return true;
   } // EO rebuild
 
-  splice(ts) {
-    if ((ts < this.ts) || (ts > this.ts)) return false;
+  scroll(ts) {
+    if ((ts < this.ts) || (ts > (this.ts + this.len))) return false;
     let n = ts - this.ts;
     let j = 0;
     for (; (n + j) < this.len; j++) { this.a[j] = this.a[n + j]; }

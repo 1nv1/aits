@@ -41,12 +41,12 @@ class aits {
     return true;
   } // EO rebuild
 
-  scroll(ts) {
+  scroll(ts, v = null) {
     if ((ts < this.ts) || (ts > (this.ts + this.len))) return false;
     let n = ts - this.ts;
     let j = 0;
     for (; (n + j) < this.len; j++) { this.a[j] = this.a[n + j]; }
-    for (; j < this.len; j++) { this.a[j] = null; }
+    for (; j < this.len; j++) { this.a[j] = v; }
     return true;
   } // EO splice
 

@@ -47,7 +47,7 @@ If success return **true** if not return **false**.
 
 ### Print all values stored
 
-By default use the callback == console.log
+By default **callback** is **console.log**.
 
 ```js
 <instance>.print(<callback>);

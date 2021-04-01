@@ -1,16 +1,11 @@
 class aits {
 
-  constructor(ts1, ts2) {
-    if (ts2 < ts1 ) {
-      throw new Error('Invalid range!');
-    }
-    if ((ts2-ts1) > 21600) {
-      throw new Error('Out of range!');
-    }
+  constructor(ts1, ts2, v = null) {
+    if (ts2 < ts1 ) throw new Error('Invalid range!');
     this.a = [];
     this.ts = ts1;
     this.len = ts2 - ts1;
-    for (let j = 0; j < this.len; j++) { this.a[j] = null; }
+    for (let j = 0; j < this.len; j++) { this.a[j] = v; }
   } // EO constructor
 
   get(ts) {

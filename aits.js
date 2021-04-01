@@ -27,10 +27,8 @@ class aits {
 
   rebuild(v = null, len = this.len) {
     if ((len < 1) && (len > this.len)) return false;
-    this.a.splice(len, this.len - 1);
-    for (let j = 0; j < len; j++) {
-      this.a[j] = v;
-    }
+    if (this.len != len) this.a.splice(len, this.len - 1);
+    for (let j = 0; j < len; j++) { this.a[j] = v; }
     this.len = len;
     return true;
   } // EO rebuild

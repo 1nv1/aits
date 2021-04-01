@@ -27,13 +27,6 @@ class aits {
     }
   }
 
-  pretty(callback = console.log) {
-    let j;
-    for (j = 0; j < this.len; j++) {
-      callback('ts: ' + (this.ts + j) + ', v: ' + this.get(this.ts + j));
-    }
-  }
-
   rebuild(ts, len = this.len) {
     if (len < 1) return false;
     this.ts = ts;

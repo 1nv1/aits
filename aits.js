@@ -25,8 +25,7 @@ class aits {
   } // EO set
 
   print(callback = console.log) {
-    let j;
-    for (j = 0; j < this.len; j++) {
+    for (let j = 0; j < this.len; j++) {
       callback(this.get(this.ts + j));
     }
   }

@@ -2,6 +2,8 @@
 
 Array indexed by timestamp. It's a very simple class to handle an array using timestamp as a key. Just that.
 
+The timestamp is incremental.
+
 ## How can test the class quickly?
 
 You can test the class creating an *index.html* file with the next content:

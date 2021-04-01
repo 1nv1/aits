@@ -2,6 +2,23 @@
 
 Array indexed by timestamp
 
+## Just test
+
+You can test the class creating an *index.html* file with the next content:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="aits.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+```
+
+and then you can use the console from your browser.
+
 ## Methods
 
 ### Create "array"

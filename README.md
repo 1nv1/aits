@@ -23,8 +23,10 @@ and then you can use the console from your browser.
 
 ### Create "array"
 
+Create the array and fill with <value>. By default <value> is *null*.
+
 ```js
-let arr = new aits(<timestamp1>, <timestamp2>);
+let arr = new aits(<timestamp1>, <timestamp2>, <value>);
 ```
 
 ### Get stored value associate with some timestamp

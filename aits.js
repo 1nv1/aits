@@ -10,7 +10,7 @@ class aits {
     this.a = [];
     this.ts = ts1;
     this.len = ts2 - ts1;
-    for (let j = 0; j < len; j++) { this.a[j] = null; }
+    for (let j = 0; j < this.len; j++) { this.a[j] = null; }
   } // EO constructor
 
   get(ts) {

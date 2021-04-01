@@ -1,6 +1,6 @@
 # aits
 
-Array indexed by timestamp
+Array indexed by timestamp. It's a very simple class to handle an array using timestamp as a key. Just that.
 
 ## Just test
 

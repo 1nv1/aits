@@ -1,9 +1,9 @@
 class aits {
 
-  constructor(ts, len) {
+  constructor(ts1, ts2) {
     this.a = [];
-    this.ts = ts;
-    this.len = len;
+    this.ts = ts1;
+    this.len = ts2 - ts1;
     for (let j = 0; j < len; j++) {
       this.a[j] = null;
     }

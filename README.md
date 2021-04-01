@@ -23,7 +23,7 @@ and then you can use the console from your browser.
 
 ### Create "array"
 
-Create the array and fill with <value>. By default <value> is *null*.
+Create the array and fill with **value**. By default **value** is *null*.
 
 ```js
 let arr = new aits(<timestamp1>, <timestamp2>, <value>);
@@ -35,7 +35,7 @@ let arr = new aits(<timestamp1>, <timestamp2>, <value>);
 let value = <instance>.get(<timestamp>);
 ```
 
-If success return the <value> if not return **false**.
+If success return the **value** if not return **false**.
 
 ### Set value by timestamp
 
@@ -55,9 +55,9 @@ By default use the callback == console.log
 
 ### Scroll array
 
-Move values list from <timestamp> to beginning of array and fill the rest with <value>.
+Move values list from **timestamp** to beginning of array and fill the rest with **value**.
 
-By default <value> is *null*.
+By default **value** is *null*.
 
 ```js
 <instance>.scroll(<timestamp>, <value>);

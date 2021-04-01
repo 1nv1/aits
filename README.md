@@ -35,23 +35,19 @@ let arr = new aits(<timestamp1>, <timestamp2>, <value>);
 let value = <instance>.get(<timestamp>);
 ```
 
+If success return the <value> if not return **false**.
+
 ### Set value by timestamp
 
 ```js
 let value = <instance>.set(<timestamp>, <value>);
 ```
 
+If success return **true** if not return **false**.
+
 ### Print all values stored
 
 By default use the callback == console.log
-
-```js
-<instance>.print(<callback>);
-```
-
-### Print all values stored
-
-By default <callback> is *console.log*.
 
 ```js
 <instance>.print(<callback>);
@@ -66,3 +62,5 @@ By default <value> is *null*.
 ```js
 <instance>.scroll(<timestamp>, <value>);
 ```
+
+If success return **true** if not return **false**.
